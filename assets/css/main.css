@@ -1081,7 +1081,7 @@ input, select, textarea {
 				}
 
 				.row > .col-12-medium {
-					width: 100%;
+					width: 50%;
 				}
 
 				.row > .off-12-medium {
@@ -1453,7 +1453,7 @@ input, select, textarea {
 
 	header.style1 {
 		text-align: center;
-		padding: 3em 0 3em 0;
+		
 	}
 
 		header.style1 h2 {
@@ -1593,8 +1593,12 @@ input, select, textarea {
 		.image img {
 			display: block;
 			width: 100%;
+			
 		}
-
+		.info-img {
+			border-radius: 10px;
+			filter: grayscale(30%);
+		}
 		.image.fit {
 			display: block;
 			width: 100%;
@@ -1619,6 +1623,7 @@ input, select, textarea {
 			display: block;
 			width: 100%;
 			margin: 0 0 2em 0;
+			
 		}
 
 /* Button */
@@ -1648,6 +1653,7 @@ input, select, textarea {
 		min-width: 12em;
 		height: 4em;
 		line-height: 4em;
+		margin-top: 15px;
 	}
 
 		input[type="button"]:hover,
@@ -1955,13 +1961,13 @@ input, select, textarea {
 
 	.wrapper {
 		position: relative;
-		padding: 6em 0 9em 0;
+		padding: 3em 0 9em 0;
 	}
 
 		.wrapper .title {
 			position: absolute;
 			top: 0;
-			left: 50%;
+			left: 20%;
 			text-align: center;
 			text-transform: uppercase;
 			display: block;
@@ -2093,8 +2099,9 @@ input, select, textarea {
 			font-weight: 900;
 			text-transform: uppercase;
 			color: #fff;
-			font-size: 2em;
-			letter-spacing: 0.25em;
+			font-size: 2.5em;
+			letter-spacing: 0.1em;
+			line-height: 1em;
 		}
 
 		#logo p {
@@ -2104,7 +2111,7 @@ input, select, textarea {
 			margin: 1.25em 0 0 0;
 			display: block;
 			letter-spacing: 0.2em;
-			font-size: 0.9em;
+			font-size: 1em;
 		}
 
 /* Nav */
@@ -2345,7 +2352,6 @@ input, select, textarea {
 
 		#footer header.style1 {
 			padding-bottom: 6em;
-			margin-bottom: 6em;
 			border-bottom: solid 1px rgba(255, 255, 255, 0.05);
 		}
 
@@ -2374,7 +2380,6 @@ input, select, textarea {
 	#copyright {
 		text-align: center;
 		padding-top: 6em;
-		margin-top: 6em;
 		border-top: solid 1px rgba(255, 255, 255, 0.05);
 	}
 
@@ -2437,7 +2442,8 @@ input, select, textarea {
 		/* Wrapper */
 
 			.wrapper {
-				padding: 4em 0 7em 0;
+				padding: 2.5em 0 7em 0;
+				
 			}
 
 		/* Logo */
@@ -2447,7 +2453,7 @@ input, select, textarea {
 			}
 
 				#logo h1 {
-					font-size: 1.75em;
+					font-size: 2.5em;
 				}
 
 		/* Intro */
@@ -2480,7 +2486,7 @@ input, select, textarea {
 
 			#copyright {
 				padding-top: 4em;
-				margin-top: 4em;
+
 			}
 
 	}
@@ -2802,10 +2808,11 @@ input, select, textarea {
 			button,
 			.button {
 				display: block;
-				width: 100%;
-				font-size: 1em;
-				max-width: 30em;
-				margin: 0 auto;
+				width: 50%;
+				font-size: .7em;
+				max-width: 25em;
+				min-width: 12em;
+				margin: 10px auto;
 			}
 
 		/* Actions */
@@ -2851,9 +2858,11 @@ input, select, textarea {
 
 			.wrapper {
 				padding: 3em 0 6em 0;
+				padding-bottom: 32px;
 			}
 
 				.wrapper .title {
+					left: 50%;
 					font-size: 0.9em;
 					width: 18em;
 					height: 2.5em;
@@ -2873,7 +2882,7 @@ input, select, textarea {
 		/* Header */
 
 			#header {
-				height: 17em;
+				height: 20em;
 			}
 
 				.homepage #header {
@@ -2889,15 +2898,16 @@ input, select, textarea {
 			}
 
 				#logo h1 {
-					font-size: 1.5em;
+					font-size: 2em;
 					letter-spacing: 0.2em;
+					margin-top: 20px;
 				}
 
 				#logo p {
 					margin: 1.25em 0 0 0;
 					display: block;
 					letter-spacing: 0.2em;
-					font-size: 0.9em;
+					font-size: 1em;
 				}
 
 		/* Intro */
@@ -2938,7 +2948,7 @@ input, select, textarea {
 			}
 
 				#content header.style1 {
-					padding-bottom: 2.5em;
+					padding-bottom: 1em;
 				}
 
 		/* Footer */
@@ -2962,7 +2972,7 @@ input, select, textarea {
 
 			#copyright {
 				padding-top: 0;
-				margin-top: 4em;
+				margin-top: 2em;
 				border-top: 0;
 			}
 
